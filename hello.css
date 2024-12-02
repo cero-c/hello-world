@@ -1,0 +1,44 @@
+body{background: #B1D8B7;}
+h1{color: #BF5F3C; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 3em; font-weight: 100em; font-style:inherit;}
+nav a{background-color: #B1D8B7;
+  color:#00735C; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: smaller;font-style: italic;}
+nav a:active{color: #ffc9b5;
+  background-color: #BF5F3C}
+body section h2 {
+  background-color: #B1D8B7; color:#00735C
+  }
+section p{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: medium; font-weight: 300; font-style: normal;}
+
+/*les2b box-model*/ 
+.box1{
+  width: 80%;
+  height: 200%;
+  background-color: #00735C;
+  padding: 5px;
+  margin: 0%;
+}
+a:hover{
+  background-color: #BF5F3C;
+  color:#B1D8B7
+}
+a:active{
+  background-color: darkgreen;
+  color: aqua;
+}
+div a:hover{
+  background-color: blanchedalmond;
+  color:darkblue;
+}
+/*top right bottom left -solid for border*/
+h1{border:2px solid #00735C;
+  background: #B1D8B7;
+  padding:0.5em;
+  margin: 0.5em;
+}
+.box2{
+  border: 1rem solid #00735C;
+  width: 20rem;
+  height: 2rem;
+  padding: 0.5em;
+  margin: 0em;
+}
